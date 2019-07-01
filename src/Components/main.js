@@ -1,8 +1,7 @@
-import React, {Component} from 'react';
-import ReactDOM from 'react-dom';
+import React, { Component } from "react";
+import ReactDOM from "react-dom";
 import { BrowserRouter as Router, Route, Link } from "react-router-dom";
-import Home from './home.js'
-
+import Home from "./home.js";
 
 export class Main extends Component {
   render() {
@@ -10,7 +9,7 @@ export class Main extends Component {
       <Router>
         <Route exact path="/" component={Home} />
       </Router>
-    )
+    );
   }
 }
-export default Main
+export default Main;
