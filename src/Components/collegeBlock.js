@@ -1,5 +1,4 @@
 import React, {Component} from 'react';
-import Background from '../images/havasu.jpg';
 import PSU from '../images/grad.jpg';
 import "../CSS/home.css"
 

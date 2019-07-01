@@ -10,6 +10,7 @@ export class WorkBlock extends Component {
   render() {
     return (
       <div className="grayBackground">
+        <br></br>
         <h3>- Work Experience -</h3>
         <div>
           <Job src={Spiffy} title={"Get Spiffy"} position={"Full Stack Engineer"} location={"Durham, NC"} dateRange="March 2017 - present"

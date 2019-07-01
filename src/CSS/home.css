@@ -1,3 +1,6 @@
+body{
+  font-family: 'Montserrat', sans-serif;
+}
 .background {
     background-image: url('../images/havasu.jpg');
     background-size: cover;
@@ -30,6 +33,7 @@
 }
  .twoCol {
    display: flex;
+   text-align: center;
   justify-content: space-between;
   padding-left: 0px;
   padding-right: 0px;
@@ -54,14 +58,12 @@
   background-color: #edeeef
 }
 .jobTitle{
-   font-family: Arial, Helvetica, sans-serif;
   font-size: 2em;
   font-style: normal;
   color: #0C4070;
   margin-bottom: 0px;
 }
 .jobSubheader{
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 1em;
   font-style: normal;
   color: green;
@@ -79,6 +81,33 @@
 .label {
   padding-top: 5px;
   padding-right: 10px;
+}
+.skillCol {
+  width: 50%;
+  text-align: right;
+  padding-right: 10px;
+}
+.footer {
+  padding-top: 15px;
+  padding-bottom: 15px;
+}
+.header {
+  text-align: right;
+}
+.headerItem {
+  padding-left: 15px;
+  padding-right: 15px;
+  font-size: 1.2em;
+  color: '#0C4070' !important;
+}
+.icons {
+  text-align: center
+}
+.contactImg {
+    width: 45px;
+    height: 45px;
+    padding: 5px;
+    margin: 0;
 }
 @media only screen and (max-device-width: 1366px) {
   .background {
@@ -99,4 +128,5 @@
     padding-right: 5%;
     width: 90%;
   }
+
 }
