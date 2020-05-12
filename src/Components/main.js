@@ -11,7 +11,8 @@ import Calendar from "./calendar.js";
 export class Main extends Component {
   render() {
     return (
-      <Router>
+      // <Router basename="/valley-brethren-church">
+      <Router basename={process.env.PUBLIC_URL}>
         <Route exact path="/" component={Home} />
         <Route exact path="/about" component={About} />
         <Route exact path="/ministries" component={Ministries} />

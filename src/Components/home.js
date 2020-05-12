@@ -25,7 +25,7 @@ export class Home extends Component {
       <Header />
         <Parallax bgImage={Church} strength={500} blur={{ min: 1, max: 1 }}>
           <div style={{ height: 700 }}>
-            <div style={insideStyles}>Valley Brethern Church
+            <div style={insideStyles}>Valley Brethren Church
               <br></br>
               <p className="mainSmallFont">Seeking to know Christ and make Him better known</p>
               <p className="mainSmallFont">Sunday School: 9:30</p>
