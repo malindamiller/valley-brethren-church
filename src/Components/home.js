@@ -1,10 +1,9 @@
 import React, { Component } from "react";
 import { Parallax } from "react-parallax";
-import CollegeBlock from "./collegeBlock.js";
-import WorkBlock from "./workBlock.js";
 import Footer from "./footer.js";
-import Skills from "./skills.js";
-import Malinda from "../images/Malinda1.jpg";
+import Header from "./header.js";
+import Calendar from "./calendar.js";
+import Church from "../images/Valley.jpg";
 import "../CSS/home.css";
 
 export class Home extends Component {
@@ -23,14 +22,17 @@ export class Home extends Component {
     };
     return (
       <div>
-        <Parallax bgImage={Malinda} strength={500} blur={{ min: 1.5, max: 3 }}>
+      <Header />
+        <Parallax bgImage={Church} strength={500} blur={{ min: 1, max: 1 }}>
           <div style={{ height: 700 }}>
-            <div style={insideStyles}>Malinda Kelleher</div>
+            <div style={insideStyles}>Valley Brethern Church
+              <br></br>
+              <p className="mainSmallFont">Seeking to know Christ and make Him better known</p>
+              <p className="mainSmallFont">Sunday School: 9:30</p>
+              <p className="mainSmallFont">Worship: 10:30</p>
+            </div>
           </div>
         </Parallax>
-        <CollegeBlock />
-        <WorkBlock />
-        <Skills />
         <Footer />
       </div>
     );

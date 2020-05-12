@@ -1,7 +1,7 @@
 import React, { Component } from "react";
 import "../CSS/home.css";
 
-export class Job extends Component {
+export class Ministry extends Component {
   render() {
     return (
       <div>
@@ -12,9 +12,8 @@ export class Job extends Component {
           <div className="halfWidthRight">
             <h3 className="jobTitle">{this.props.title}</h3>
             <h6 className="jobSubheader">
-              {this.props.position} - {this.props.location}
+              {this.props.position}
             </h6>
-            <h6 className="jobSubheader">{this.props.dateRange}</h6>
             <p className="description">{this.props.jobDescription}</p>
           </div>
         </div>
@@ -22,4 +21,4 @@ export class Job extends Component {
     );
   }
 }
-export default Job;
+export default Ministry;

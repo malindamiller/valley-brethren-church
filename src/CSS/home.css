@@ -2,7 +2,6 @@ body {
   font-family: "Montserrat", sans-serif;
 }
 .background {
-  background-image: url("../images/havasu.jpg");
   background-size: cover;
   background-repeat: no-repeat;
   width: 100%;
@@ -41,6 +40,28 @@ body {
 .description {
   text-align: left !important;
 }
+.description2 {
+  text-align: left !important;
+  font-size: 1.25em;
+}
+.menu {
+  margin-top: 0px;
+  margin-bottom: 0px;
+  background-color: #6D4132;
+  color: white;
+  display: flex;
+  list-style: none;
+}
+.menu-item {
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-bottom: 10px;
+  color: white;
+}
+a:visited {
+  color: white;
+}
 .halfWidthLeft {
   padding-left: 10%;
   padding-right: 1%;
@@ -57,22 +78,33 @@ body {
 .grayBackground {
   background-color: #edeeef;
 }
+.paddingLeftRight {
+  margin-left: 20px;
+  margin-right: 20px;
+}
+.title {
+  color: #31716d;
+}
 .jobTitle {
   font-size: 2em;
   font-style: normal;
-  color: #0c4070;
+  color: #31716d;
   margin-bottom: 0px;
 }
 .jobSubheader {
   font-size: 1em;
   font-style: normal;
-  color: green;
+  color: #4f3171;
   margin-bottom: 0px;
   margin-top: 0px;
 }
 .workLogo {
-  padding-top: 80px;
-  width: 200px;
+  padding-top: 40px;
+  width: 300px;
+}
+.campLogo {
+  padding-top: 40px;
+  width: 600px;
 }
 .flex {
   display: flex;
@@ -92,13 +124,15 @@ body {
   padding-bottom: 15px;
 }
 .header {
+  height: 40px;
+  background-color: #714031;
   text-align: right;
 }
 .headerItem {
   padding-left: 15px;
   padding-right: 15px;
   font-size: 1.2em;
-  color: "#0C4070" !important;
+  color: white !important;
 }
 .icons {
   text-align: center;
@@ -109,9 +143,93 @@ body {
   padding: 5px;
   margin: 0;
 }
+.mainSmallFont {
+  font-size: 0.5em;
+}
+.menu-btn span {
+	display: block;
+	width: 19px;
+	height: 3px;
+	margin: 4px 0;
+	background: rgb(255,255,255);
+}
+
+.responsive-menu{
+	display: none;
+  background-color: #444;
+  border-style: solid;
+  border-color: #252525;
+  border-width: 5px;
+  padding: 5px;
+  width: 300px;
+  height: 150px;
+  font-size: 20px;
+  ul{
+    margin: 0px 0px 0px -40px;
+
+  }
+  li {
+    background-color: #383838;
+    margin: 4px;
+    padding: 5px;
+    color: white;
+    list-style-type: none;
+  }
+}
+
+.expand {
+	display: block !important;
+}
+
+
+/* Horizontal Navbar Below */
+.nav-horizontal {
+  margin: -10px;
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-size: 20px;
+
+}
+
+li {
+    float: left;
+}
+
+li a:-webkit-any-link {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+  }
+}
+
 @media only screen and (max-device-width: 1366px) {
   .background {
     background-attachment: scroll;
+  }
+  .menu {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    background-color: #6D4132;
+    color: white;
+    display: block !important;
+    list-style: none;
+  }
+  .menu-item {
+    padding: 5px;
+  }
+  .iconBack {
+    background-color: #6D4132;
   }
   .twoCol {
     display: block;
@@ -122,6 +240,9 @@ body {
     padding-left: 5%;
     padding-right: 5%;
     width: 90%;
+  }
+  .workLogo {
+    width: 300px;
   }
   .halfWidthRight {
     padding-left: 5%;
