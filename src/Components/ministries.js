@@ -55,6 +55,14 @@ export class Ministries extends Component {
               "We will seek to discover and empower those with the gift of leadership to fulfill the leadership positions within our Church and our ministries. We will provide leadership and discipleship training as needed, to encourage and nurture those currently in leadership and those just entering leadership roles as we grow and mature"
             }
           />
+          <Ministry
+            src={null}
+            title={"Ministry of Safety and Security"}
+            position={"John Zylka and Eric Yoder"}
+            jobDescription={
+              "We will provide for the safety and security of our congregation and buildings"
+            }
+          />
         </div>
       </div>
     );

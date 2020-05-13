@@ -3,7 +3,7 @@ import { Parallax } from "react-parallax";
 import Footer from "./footer.js";
 import Header from "./header.js";
 import Calendar from "./calendar.js";
-import Church from "../images/Valley.jpg";
+import Church from "../images/Valley2.jpg";
 import "../CSS/home.css";
 
 export class Home extends Component {
@@ -27,6 +27,7 @@ export class Home extends Component {
           <div style={{ height: 700 }}>
             <div style={insideStyles}>Valley Brethren Church
               <br></br>
+              <a href="https://www.youtube.com/channel/UCtIKudM60R0epeVw9OBAnng" target="_blank"><button className="message-link">Watch A Message</button></a>
               <p className="mainSmallFont">Seeking to know Christ and make Him better known</p>
               <p className="mainSmallFont">Sunday School: 9:30</p>
               <p className="mainSmallFont">Worship: 10:30</p>

@@ -12,8 +12,9 @@ export class Footer extends Component {
         <p>{"724-593-2396"}</p>
         <p>Mailing Address: PO Box 44, Jones Mills, PA, 15646</p>
         <p>308 Mountain View Rd, Donegal, PA</p>
+        <p>Email: valleybc@lhtot.com</p>
         <div className="icons">
-          <a href="mailto:valleybc@lhtot.org">
+          <a href="mailto:valleybc@lhtot.com">
             <img className="contactImg" src={Gmail}></img>
           </a>
           <a href="https://www.facebook.com/groups/945411128817184/">

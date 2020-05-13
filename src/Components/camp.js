@@ -17,18 +17,11 @@ export class Camp extends Component {
             <h6 className="jobSubheader">
               {"So Jacob named the place Peniel, for he said, I have seen God face to face, yet my life has been preserved. -Genesis 32:30"}
             </h6>
-            <p className="description2">Dates for 2019 Camp
-              <br></br>
-              Senior Camp: June 11 - 18 (ages 14 - 18)
-              <br></br>
-              Junior Camp: June 18 - 25 (ages 10 - 13)
-              <br></br>
-              Mini Camp: June 25 - June 28 (ages 6 - 9)
             <br></br>
-            </p>
-            <a href="http://pacamppeniel.weebly.com"  target="_blank">More Information</a>
+            <h3>Camp has been canceled for 2020 due to COVID-19</h3>
+            <a className = "black-link" href="http://pacamppeniel.weebly.com"  target="_blank">More Information</a>
             <br></br>
-            <a href="http://valleybrethrenchurch.org/camp_registration_form_2014.pdf"  target="_blank">Camper Application</a>
+            <a className = "black-link" href="http://valleybrethrenchurch.org/camp_registration_form_2014.pdf"  target="_blank">Camper Application</a>
           </div>
         </div>
       </div>

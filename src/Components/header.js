@@ -16,11 +16,12 @@ export class Header extends Component {
         smallMenuClassName="smallMenu"
         menu={
           <ul className="menu">
-          <li className="menu-item"><a href="/">Home</a></li>
-          <li className="menu-item"><a href="./calendar">Calendar</a></li>
-          <li className="menu-item"><a href="./outreaches">Outreach</a></li>
-          <li className="menu-item"><a href="./ministries">Ministries</a></li>
-          <li className="menu-item"><a href="./about">About</a></li>
+          <li className="menu-item"><a className="white-links" href="/">Home</a></li>
+          <li className="menu-item"><a className="white-links" href="./calendar">Calendar</a></li>
+          <li className="menu-item"><a className="white-links" href="./camp">Camp</a></li>
+          <li className="menu-item"><a className="white-links" href="./outreaches">Outreach</a></li>
+          <li className="menu-item"><a className="white-links" href="./ministries">Ministries</a></li>
+          <li className="menu-item"><a className="white-links" href="./about">About</a></li>
           </ul>
         }
       />
