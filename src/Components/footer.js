@@ -8,7 +8,6 @@ export class Footer extends Component {
     return (
       <div className="grayBackground footer">
         <h2>{"Contact Us"}</h2>
-        <p>{"Pastor Carl (Bill) Yoder"}</p>
         <p>{"724-593-2396"}</p>
         <p>Mailing Address: PO Box 44, Jones Mills, PA, 15646</p>
         <p>308 Mountain View Rd, Donegal, PA</p>

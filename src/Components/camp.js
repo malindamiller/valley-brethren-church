@@ -18,7 +18,9 @@ export class Camp extends Component {
               {"So Jacob named the place Peniel, for he said, I have seen God face to face, yet my life has been preserved. -Genesis 32:30"}
             </h6>
             <br></br>
-            <h3>Camp has been canceled for 2020 due to COVID-19</h3>
+            <h3>Senior Camp: June 13-20, 2021</h3>
+            <h3>Junior Camp: June 20-27, 2021</h3>
+            <h3>Mini Camp: June 27-30, 2021</h3>
             <a className = "black-link" href="http://pacamppeniel.weebly.com"  target="_blank">More Information</a>
             <br></br>
             <a className = "black-link" href="http://valleybrethrenchurch.org/camp_registration_form_2014.pdf"  target="_blank">Camper Application</a>
